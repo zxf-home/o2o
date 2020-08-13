@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61a9ca24-eed5-4559-801f-8c0d5b31e36a" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="o2o" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/topthink/think-captcha" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-helper" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-migration" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-testing" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-mongo" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-sae" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-installer" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-queue" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
+      <path value="$PROJECT_DIR$/vendor/symfony/dom-crawler" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/topthink/think-image" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="1VVlWBFiMAqQHulxZYDnVMJWETG" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="D:\软件\node.js\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DolphinPHPV1.4.5" />
+    <property name="settings.editor.selected.configurable" value="terminal" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\phpStudy\WWW\o2o\application\admin\view\user" />
+      <recent name="D:\phpStudy\WWW\o2o\application\admin\controller" />
+      <recent name="D:\phpStudy\WWW\o2o\application\admin\view\order" />
+      <recent name="D:\phpStudy\WWW\o2o\application\index\view\order" />
+      <recent name="D:\phpStudy\WWW\o2o\extend\alipay" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61a9ca24-eed5-4559-801f-8c0d5b31e36a" name="Default" comment="" />
+      <created>1572826957364</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1572826957364</updated>
+      <workItem from="1572826958544" duration="1009000" />
+      <workItem from="1572848047067" duration="19149000" />
+      <workItem from="1572874810265" duration="6108000" />
+      <workItem from="1572912767171" duration="14833000" />
+      <workItem from="1572964974046" duration="152000" />
+      <workItem from="1572999477275" duration="4221000" />
+      <workItem from="1573014410927" duration="8673000" />
+      <workItem from="1573049834262" duration="191000" />
+      <workItem from="1573085955072" duration="25521000" />
+      <workItem from="1573128814196" duration="5067000" />
+      <workItem from="1573180967423" duration="8163000" />
+      <workItem from="1573299200171" duration="707000" />
+      <workItem from="1573352478384" duration="6923000" />
+      <workItem from="1573375511616" duration="18006000" />
+      <workItem from="1573431709244" duration="603000" />
+      <workItem from="1573451443520" duration="5352000" />
+      <workItem from="1573464596482" duration="1377000" />
+      <workItem from="1573554011733" duration="3069000" />
+      <workItem from="1573565801408" duration="2791000" />
+      <workItem from="1573604078228" duration="14000" />
+      <workItem from="1573737263010" duration="15000" />
+      <workItem from="1574130580122" duration="863000" />
+      <workItem from="1574323046216" duration="18000" />
+      <workItem from="1574330209384" duration="52000" />
+      <workItem from="1574342348256" duration="808000" />
+      <workItem from="1574343208736" duration="1723000" />
+      <workItem from="1574347474470" duration="191000" />
+      <workItem from="1574411634575" duration="47000" />
+      <workItem from="1577346173350" duration="2733000" />
+      <workItem from="1585552799054" duration="2181000" />
+      <workItem from="1586345315999" duration="3336000" />
+      <workItem from="1586356638918" duration="2625000" />
+      <workItem from="1586390801823" duration="990000" />
+      <workItem from="1586429448696" duration="906000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,99 @@
+{include file='public/head'}
+<!--支付第一步-->
+<div class="firstly">
+    <div class="bindmobile-wrap">
+        <h1 style="font-size: 18px;">我的订单</h1>
+    </div>
+    {if condition="$dealArr eq ''"}
+    <p style="text-align: center;font-size: 18px;color: red;">还没有买任何物品</p>
+    {else /}
+
+    <table class="table table-goods" cellpadding="0" cellspacing="0">
+        <tbody>
+        <tr>
+            <th class="first">商品</th>
+            <th width="120">单价</th>
+            <th width="190">数量</th>
+            <th width="140" class="last">小计</th>
+            <th width="140">支付状态</th>
+            <th width="140">删除</th>
+        </tr>
+
+        {volist name='dealArr' id='vo'}
+        <tr class="j-row">
+            <td class="vtop" style="text-align: center;">
+                <div class="title-area" title="">
+                    <div class="img-wrap">
+                        <a href="" target="_blank">
+                            <img src="{$vo.image}" width="130" height="79">
+                        </a>
+                    </div>
+                    <div>
+                        <div class="title" style="padding-top: 30px ; ">
+                            <a href="" class="link" style="color: black; margin-left: 10px;">【{$vo.name}】</a>
+                            <div class="attrs"></div>
+                        </div>
+                    </div>
+                </div>
+            </td>
+            <td>￥<span class="font14">{$vo.current_price}</span></td>
+            <td class="j-cell">
+                <div class="buycount-ctrl">
+                    <input type="text" disabled="disabled" value="{$vo.deal_count}" maxlength="10">
+                </div>
+                <span class="err-wrap j-err-wrap"></span>
+            </td>
+            <td class="price font14">¥<span class="j-sumPrice">{$vo.total_price}</span></td>
+            <td class="font14"><span class="j-sumPrice" style="color: darkgray">{$vo.pay_status|payStatus}</span></td>
+            <td class="font14"><a href="{:url('order/delorder',['id'=>$vo.id])}" style="color: grey">删除订单</a></td>
+        </tr>
+        {/volist}
+        </tbody>
+    </table>
+    {/if}
+    <div style="margin-top: 30px">
+        {:pagination($orderlistData)}
+    </div>
+
+</div>
+<script>
+    //校验正整数
+    function isNaN(number) {
+        var reg = /^[1-9]\d*$/;
+        return reg.test(number);
+    }
+
+    function inputChange(num) {
+        if (!isNaN(num)) {
+            $(".buycount-ctrl input").val("1");
+        }
+        else {
+            $(".buycount-ctrl input").val(num);
+            $(".j-sumPrice").text($("td .font14").text() * num - $(".j-cellActivity span").text());
+            $(".sum .price").text($("td .font14").text() * num - $(".j-cellActivity span").text());
+            if (num == 1) {
+                $(".buycount-ctrl a").eq(0).addClass("disabled");
+            }
+            else {
+                $(".buycount-ctrl a").eq(0).removeClass("disabled");
+            }
+        }
+    }
+
+    $(".buycount-ctrl input").keyup(function () {
+        var num = $(".buycount-ctrl input").val();
+        inputChange(num);
+    });
+    $(".minus").click(function () {
+        var num = $(".buycount-ctrl input").val();
+        num--;
+        inputChange(num);
+    });
+    $(".plus").click(function () {
+        var num = $(".buycount-ctrl input").val();
+        num++;
+        inputChange(num);
+    });
+</script>
+</body>
+</html>
