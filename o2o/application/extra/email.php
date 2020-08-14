@@ -7,7 +7,7 @@
  */
 return [
     'host'  => 'smtp.qq.com',
-    'Username'=> '178736985@qq.com',
+    'Username'=> 'xxxxx@qq.com',
     'Password'=> 'ygtoucohklwscbch',
     'port' => 465
 ];
